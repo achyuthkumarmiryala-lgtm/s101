@@ -1,0 +1,210 @@
+<!---<!DOCTYPE html>
+<html>
+<head>
+  <title>My Practice Page</title>
+</head>
+<body>
+
+  <h1>Welcome to My Practice Page</h1>
+  <h2>HTML Elements Demo</h2>
+  
+  <p>This is a paragraph. Below is a horizontal line:</p>
+  <hr>
+
+  <p>Here is <b>bold</b>, <i>italic</i>, and <u>underlined</u> text.</p>
+
+  <p>Click this link to visit <a href="https://www.google.com">Google</a>.</p>
+
+  <p>Here is an image:</p>
+  <img src="https://via.placeholder.com/200" alt="Sample Image">
+
+  <h3>My To-Do List</h3>
+  <ol>
+    <li>Learn HTML</li>
+    <li>Practice daily</li>
+    <li>Build a project</li>
+  </ol>
+
+  <h3>Fruits I like</h3>
+  <ul>
+    <li>Mango</li>
+    <li>Orange</li>
+    <li>Watermelon</li>
+  </ul>
+
+</body>
+</html>-->
+
+
+
+<!---<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+
+  <form action="#">
+    
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message" rows="4" cols="40"></textarea><br><br>
+
+    <label>Country:</label><br>
+    <select name="country">
+      <option>India</option>
+      <option>USA</option>
+      <option>Canada</option>
+    </select><br><br>
+
+    <input type="checkbox" name="newsletter"> Subscribe to newsletter<br><br>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+
+</body>
+</html>--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+
+  <style>
+    body {
+      background-color: #20699c;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 30px;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px #aaa;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input:not([type="radio"]):not([type="checkbox"]),
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .gender-group,
+    .checkbox-group {
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #1976d2;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+
+  <div class="form-container">
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <div class="gender-group">
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>Canada</option>
+      </select>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
